@@ -3,6 +3,8 @@ import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
 import Navbar from "./components/Navbar";
+import Banner from "./components/Banner";
+import Stats from "./components/Stats";
 
 function App() {
   const [cartItems, setCartItems] = useState([]);
@@ -30,6 +32,8 @@ function App() {
   return (
     <div className="min-h-screen bg-white">
       <Navbar cartCount={cartItems.length} />
+      <Banner />
+      <Stats />
 
       <ToastContainer
         position="top-right"
