@@ -6,6 +6,7 @@ import Navbar from "./components/Navbar";
 import Banner from "./components/Banner";
 import Stats from "./components/Stats";
 import Steps from "./components/Steps";
+import Footer from "./components/Footer";
 
 function App() {
   const [cartItems, setCartItems] = useState([]);
@@ -36,6 +37,7 @@ function App() {
       <Banner />
       <Stats />
       <Steps />
+      <Footer />
 
       <ToastContainer
         position="top-right"
