@@ -5,6 +5,7 @@ import "react-toastify/dist/ReactToastify.css";
 import Navbar from "./components/Navbar";
 import Banner from "./components/Banner";
 import Stats from "./components/Stats";
+import MainSection from "./components/MainSection";
 import Steps from "./components/Steps";
 import Pricing from "./components/Pricing";
 import CTABanner from "./components/CTABanner";
@@ -38,6 +39,12 @@ function App() {
       <Navbar cartCount={cartItems.length} />
       <Banner />
       <Stats />
+      <MainSection
+        cartItems={cartItems}
+        onAddToCart={handleAddToCart}
+        onRemove={handleRemoveFromCart}
+        onCheckout={handleCheckout}
+      />
       <Steps />
       <Pricing />
       <CTABanner />
