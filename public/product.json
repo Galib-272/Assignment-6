@@ -1,0 +1,76 @@
+[
+  {
+    "id": 1,
+    "name": "AI Writing Pro",
+    "description": "Generate high-quality content, blogs, and marketing copy with advanced AI writing assistance.",
+    "price": 29,
+    "period": "monthly",
+    "tag": "New",
+    "tagType": "new",
+    "features": [
+      "Unlimited AI generations",
+      "90+ writing templates",
+      "Grammar checker"
+    ],
+    "icon": "writing"
+  },
+  {
+    "id": 2,
+    "name": "Design Templates Pack",
+    "description": "200+ eye-catching professional templates for presentations, social media and marketing.",
+    "price": 49,
+    "period": "one-time",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": ["200+ pro templates", "Monthly updates", "Commercial license"],
+    "icon": "design"
+  },
+  {
+    "id": 3,
+    "name": "Premium Stock Assets",
+    "description": "Access millions of royalty-free images, videos, and audio to power your projects.",
+    "price": 19,
+    "period": "monthly",
+    "tag": "New",
+    "tagType": "new",
+    "features": ["5M+ assets", "4K resolution", "Extended license"],
+    "icon": "portfolio"
+  },
+  {
+    "id": 4,
+    "name": "Automation Toolkit",
+    "description": "Automate repetitive tasks and streamline your digital workflows with powerful tools.",
+    "price": 79,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": ["50+ templates", "API integrations", "Custom workflows"],
+    "icon": "operation"
+  },
+  {
+    "id": 5,
+    "name": "Resume Builder Pro",
+    "description": "Craft standout resumes that land interviews. ATS-friendly templates trusted by professionals.",
+    "price": 15,
+    "period": "one-time",
+    "tag": "New",
+    "tagType": "new",
+    "features": ["100+ templates", "ATS optimization", "Export to PDF"],
+    "icon": "shopping"
+  },
+  {
+    "id": 6,
+    "name": "Social Media Content Kit",
+    "description": "Create scroll-stopping social content and schedule posts across all platforms effortlessly.",
+    "price": 39,
+    "period": "monthly",
+    "tag": "Best Seller",
+    "tagType": "bestseller",
+    "features": [
+      "500+ content ideas",
+      "Scheduler included",
+      "Analytics dashboard"
+    ],
+    "icon": "social"
+  }
+]
