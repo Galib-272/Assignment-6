@@ -7,6 +7,7 @@ import Banner from "./components/Banner";
 import Stats from "./components/Stats";
 import Steps from "./components/Steps";
 import Pricing from "./components/Pricing";
+import CTABanner from "./components/CTABanner";
 import Footer from "./components/Footer";
 
 function App() {
@@ -39,6 +40,7 @@ function App() {
       <Stats />
       <Steps />
       <Pricing />
+      <CTABanner />
       <Footer />
 
       <ToastContainer
