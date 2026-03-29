@@ -1,16 +1,55 @@
-# React + Vite
+# 🚀 Digitools Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, high-performance e-commerce interface built for seamless digital tool browsing and management. This platform focuses on speed, clean UI, and a smooth user experience.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🛠️ Tech Stack
 
-## React Compiler
+- **Frontend:** React.js (JavaScript)
+- **Styling:** Tailwind CSS + DaisyUI
+- **Notifications:** React-Toastify
+- **Icons:** React Icons
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## ✨ Key Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **🛒 Interactive Cart System:** Add and remove products in real-time with an automated counter in the navigation bar.
+- **📱 Fully Responsive Design:** Optimized for all devices, from mobile phones to high-resolution desktop monitors.
+- **⚡ Instant Feedback:** Integrated toast notifications provide immediate visual confirmation for actions like checkout and cart updates.
+
+---
+
+## 🚀 Getting Started
+
+1. **Clone the repository**
+```bash
+   git clone https://github.com/Galib-272/Assignment-6.git
+```
+
+2. **Install dependencies**
+```bash
+   npm install
+```
+
+3. **Run the development server**
+```bash
+   npm run dev
+```
+
+---
+
+## 📁 Project Structure
+```
+src/
+├── components/       # UI Components (Navbar, Banner, Stats, etc.)
+├── App.jsx           # Main application logic
+└── main.jsx          # Entry point
+```
+
+---
+
+❤️ Built by **Galib**  
+Department of Computer Science and Engineering  
+Daffodil International University
