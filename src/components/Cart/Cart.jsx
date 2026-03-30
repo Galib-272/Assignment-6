@@ -1,10 +1,10 @@
-import writingImg from "../assets/products/writing.png";
-import designImg from "../assets/products/design-tool.png";
-import portfolioImg from "../assets/products/portfolio.png";
-import operationImg from "../assets/products/operation.png";
-import shoppingImg from "../assets/products/shopping-cart.png";
-import socialImg from "../assets/products/social-media.png";
-import { BsCartX } from "react-icons/bs"; // Restoring the icon
+import writingImg from "../../assets/products/writing.png";
+import designImg from "../../assets/products/design-tool.png";
+import portfolioImg from "../../assets/products/portfolio.png";
+import operationImg from "../../assets/products/operation.png";
+import shoppingImg from "../../assets/products/shopping-cart.png";
+import socialImg from "../../assets/products/social-media.png";
+import { BsCartX } from "react-icons/bs";
 import { toast } from "react-toastify";
 
 const iconMap = {
@@ -32,7 +32,6 @@ const Cart = ({ cartItems, onRemove, onCheckout }) => {
         </h3>
 
         {cartItems.length === 0 ? (
-          /* Restored Empty State with Logo */
           <div className="flex flex-col items-center justify-center py-24 text-gray-400">
             <BsCartX size={80} className="mb-6 text-gray-200" />
             <p className="text-xl font-semibold text-gray-500">

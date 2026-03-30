@@ -1,25 +1,21 @@
-import bannerImg from "../assets/banner.png";
+import bannerImg from "../../assets/banner.png";
 import { FaPlay } from "react-icons/fa";
 
 const Banner = () => {
   return (
     <section className="bg-white py-16 md:py-24 px-6 md:px-20 overflow-hidden">
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center gap-12 md:gap-16">
-        {/* Left Content */}
         <div className="flex-1 space-y-7 text-left">
-          {/* Badge */}
           <div className="inline-flex items-center gap-2 bg-[#EEF2FF] text-[#6366F1] text-xs font-bold px-4 py-2 rounded-full shadow-sm">
             <div className="w-2 h-2 rounded-full bg-[#6366F1] animate-pulse" />
             New: AI-Powered Tools Available
           </div>
 
-          {/* Heading */}
           <h1 className="text-5xl md:text-7xl font-bold text-[#1E293B] leading-[1.1]">
             Supercharge Your <br />
             Digital Workflow
           </h1>
 
-          {/* Description */}
           <div className="space-y-4">
             <p className="text-gray-500 text-lg leading-relaxed max-w-xl">
               Access premium AI tools, design assets, templates, and
@@ -31,12 +27,10 @@ const Banner = () => {
             </p>
           </div>
 
-          {/* Buttons */}
           <div className="flex items-center gap-4 flex-wrap">
             <button
               className="px-8 py-3.5 text-white font-bold rounded-full shadow-xl shadow-purple-100 transition-transform hover:scale-105 active:scale-95"
               style={{
-                // Updated Gradient Colors
                 background: "linear-gradient(135deg, #4F39F6, #9514FA)",
               }}
             >
@@ -53,7 +47,6 @@ const Banner = () => {
           </div>
         </div>
 
-        {/* Right Image */}
         <div className="flex-1 flex justify-center lg:justify-end">
           <div className="relative w-full max-w-lg">
             <img

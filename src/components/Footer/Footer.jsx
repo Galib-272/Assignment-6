@@ -1,5 +1,5 @@
 import { FaFacebookF, FaInstagram } from "react-icons/fa";
-import { FaXTwitter } from "react-icons/fa6"; 
+import { FaXTwitter } from "react-icons/fa6";
 
 const Footer = () => {
   const footerLinks = {
@@ -17,10 +17,7 @@ const Footer = () => {
   return (
     <footer className="bg-[#0F172A] text-gray-400 pt-20 pb-10 px-6 md:px-20 font-manrope">
       <div className="max-w-7xl mx-auto">
-        {/* Top Footer Section */}
         <div className="flex flex-col lg:flex-row justify-between gap-16 pb-20">
-          
-          {/* Logo + Description */}
           <div className="max-w-sm space-y-6">
             <h2 className="text-4xl font-bold text-white tracking-tight">
               DigiTools
@@ -31,9 +28,7 @@ const Footer = () => {
             </p>
           </div>
 
-          {/* Links and Socials Container */}
           <div className="flex flex-wrap gap-12 md:gap-24">
-            {/* Footer Links Mapping */}
             {Object.entries(footerLinks).map(([title, links]) => (
               <div key={title} className="min-w-30">
                 <h4 className="text-white font-semibold text-lg mb-6">
@@ -54,14 +49,12 @@ const Footer = () => {
               </div>
             ))}
 
-            {/* Social Links Section - Fixed ESLint Error */}
             <div className="min-w-37.5">
               <h4 className="text-white font-semibold text-lg mb-6">
                 Social Links
               </h4>
               <div className="flex gap-4">
                 {socialLinks.map((social, i) => {
-                  // Destructuring inside the map and capitalizing fixes the 'never used' error
                   const SocialIcon = social.icon;
                   return (
                     <a
@@ -78,7 +71,6 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* Bottom Footer Section */}
         <div className="pt-8 border-t border-gray-800 flex flex-col md:flex-row items-center justify-between gap-6 text-sm">
           <p>© 2026 Digitools. All rights reserved.</p>
 

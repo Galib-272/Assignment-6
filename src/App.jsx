@@ -2,14 +2,14 @@ import { useState } from "react";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
-import Navbar from "./components/Navbar";
-import Banner from "./components/Banner";
-import Stats from "./components/Stats";
-import MainSection from "./components/MainSection";
-import Steps from "./components/Steps";
-import Pricing from "./components/Pricing";
-import CTABanner from "./components/CTABanner";
-import Footer from "./components/Footer";
+import Navbar from "./components/Navbar/Navbar";
+import Banner from "./components/Banner/Banner";
+import Stats from "./components/Stats/Stats";
+import MainSection from "./components/MainSection/MainSection";
+import Steps from "./components/Steps/Steps";
+import Pricing from "./components/Pricing/Pricing";
+import CTABanner from "./components/CTABanner/CTABanner";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   const [cartItems, setCartItems] = useState([]);

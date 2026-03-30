@@ -11,7 +11,6 @@ const Stats = () => {
     <section
       className="py-16 px-4"
       style={{
-        // Updated to your brand gradient
         background: "linear-gradient(135deg, #4F39F6 0%, #9514FA 100%)",
       }}
     >
@@ -28,7 +27,6 @@ const Stats = () => {
               </p>
             </div>
 
-            {/* Vertical Divider */}
             {index < stats.length - 1 && (
               <div className="hidden sm:block h-16 w-px bg-white/20" />
             )}

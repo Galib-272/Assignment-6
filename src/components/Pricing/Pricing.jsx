@@ -48,7 +48,6 @@ const Pricing = () => {
   return (
     <section className="py-24 bg-white font-manrope" id="pricing">
       <div className="max-w-7xl mx-auto px-6">
-        {/* Main Header remains centered */}
         <div className="text-center mb-16">
           <h2 className="text-5xl font-black text-[#1E293B] mb-4">
             Simple, Transparent Pricing
@@ -73,26 +72,27 @@ const Pricing = () => {
                   : {}
               }
             >
-              {/* Most Popular Badge */}
               {plan.isFeatured && (
                 <span className="absolute -top-4 left-1/2 -translate-x-1/2 bg-[#FEF3C7] text-[#D97706] text-xs font-bold px-4 py-1 rounded-full shadow-sm">
                   Most Popular
                 </span>
               )}
 
-              <h3 className="text-2xl font-bold mb-2">
-                {plan.name}
-              </h3>
-              
-              <p className={`text-sm mb-8 ${plan.isFeatured ? "text-purple-100" : "text-gray-500"}`}>
+              <h3 className="text-2xl font-bold mb-2">{plan.name}</h3>
+
+              <p
+                className={`text-sm mb-8 ${plan.isFeatured ? "text-purple-100" : "text-gray-500"}`}
+              >
                 {plan.description}
               </p>
 
               <div className="flex items-baseline gap-1 mb-8">
-                <span className="text-5xl font-black">
-                  ${plan.price}
-                </span>
-                <span className={plan.isFeatured ? "text-purple-100" : "text-gray-400"}>
+                <span className="text-5xl font-black">${plan.price}</span>
+                <span
+                  className={
+                    plan.isFeatured ? "text-purple-100" : "text-gray-400"
+                  }
+                >
                   /Month
                 </span>
               </div>
@@ -100,12 +100,9 @@ const Pricing = () => {
               <ul className="space-y-4 mb-10 grow">
                 {plan.features.map((feature, i) => (
                   <li key={i} className="flex items-center gap-3 text-sm">
-                    {/* SVG Ticks with specific color logic */}
                     <svg
                       className={`w-5 h-5 shrink-0 ${
-                        plan.isFeatured 
-                          ? "text-white" // White ticks for the gradient Pro card
-                          : "text-[#10B981]" // Vibrant Green ticks for others
+                        plan.isFeatured ? "text-white" : "text-[#10B981]"
                       }`}
                       fill="none"
                       stroke="currentColor"
@@ -125,13 +122,13 @@ const Pricing = () => {
 
               <button
                 className={`w-full py-4 rounded-full font-bold text-lg transition-all hover:opacity-90 ${
-                  plan.isFeatured
-                    ? "bg-white text-[#4F39F6]"
-                    : "text-white"
+                  plan.isFeatured ? "bg-white text-[#4F39F6]" : "text-white"
                 }`}
                 style={
                   !plan.isFeatured
-                    ? { background: "linear-gradient(135deg, #4F39F6, #9514FA)" }
+                    ? {
+                        background: "linear-gradient(135deg, #4F39F6, #9514FA)",
+                      }
                     : {}
                 }
               >

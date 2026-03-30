@@ -14,7 +14,8 @@ const CTABanner = () => {
           Ready To Transform Your Workflow?
         </h2>
         <p className="text-purple-200 text-sm md:text-base mb-8 max-w-lg mx-auto opacity-70">
-          Join thousands of professionals who are already using Digitools to work smarter. Start your free trial today.
+          Join thousands of professionals who are already using Digitools to
+          work smarter. Start your free trial today.
         </p>
         <div className="flex flex-col sm:flex-row gap-3 justify-center">
           <button className="btn bg-white text-purple-700 font-semibold rounded-full px-4 py-3.75 border-0 hover:bg-purple-50 shadow-lg">
@@ -24,7 +25,9 @@ const CTABanner = () => {
             View Pricing
           </button>
         </div>
-        <p className="text-white mt-16 opacity-70">14-day free trial • No credit card required • Cancel anytime</p>
+        <p className="text-white mt-16 opacity-70">
+          14-day free trial • No credit card required • Cancel anytime
+        </p>
       </div>
     </section>
   );
